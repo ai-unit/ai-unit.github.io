@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  min-width: 32rem;
+
+  color: $color-base-text;
+
+  background-color: $color-base-background;
+
+  font-weight: $font-base-weight;
+  font-size: $font-base-size;
+  font-style: $font-base-style;
+  font-family: $font-base-family;
+
+  line-height: $base-line-height;
+}

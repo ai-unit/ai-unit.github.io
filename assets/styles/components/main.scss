@@ -1,0 +1,12 @@
+.main {
+  margin-left: 10rem;
+
+  padding: $page-margin;
+  padding-bottom: $page-margin * 2;
+
+  max-width: 70rem;
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-left: 1em;
+  }
+}

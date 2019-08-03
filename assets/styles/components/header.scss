@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+
+  left: -10rem;
+
+  margin-left: $page-margin;
+  margin-bottom: $page-margin * 2;
+
+  text-shadow: $black 6px 1px 0;
+
+  @media (max-width: $mobile-breakpoint) {
+    left: -5rem;
+
+    padding-top: $page-margin;
+    margin-bottom: $page-margin;
+  }
+}

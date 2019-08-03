@@ -1,0 +1,7 @@
+.frame {
+  border-left: 10rem solid $blue;
+
+  @media (max-width: $mobile-breakpoint) {
+    border-left-width: 5rem;
+  }
+}

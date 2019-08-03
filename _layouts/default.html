@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.url }}/assets/images/aiunit.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="7500">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/styles/app.css?{{ site.time | date: '%s%N' }}">
+</head>
+<body>
+  <div class="frame">
+    <header class="header">
+      <h1 class="logo">{{ site.title }}</h1>
+    </header>
+
+    <main class="main">
+      {{ content }}
+    </main>
+  </div>
+
+  <script type="text/javascript" src="/assets/scripts/app.js?{{ site.time | date: '%s%N' }}"></script>
+</body>
+</html>
