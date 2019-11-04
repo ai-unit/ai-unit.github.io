@@ -20,8 +20,9 @@ const textElems = document.querySelectorAll('main > p');
 
 for (let i = 0; i < 3; i += 1) {
   const elem = textElems[i];
+  const prefix = elem.innerText;
 
-  predict(elem.innerText)
+  predict(prefix)
     .then(text => {
       const lastChar = text[text.length - 1];
 
@@ -31,7 +32,7 @@ for (let i = 0; i < 3; i += 1) {
         text += '.';
       }
 
-      elem.innerText = `${elem.innerText} <span class="predicted">${text}</span>`;
+      elem.innerHTML = `${prefix} <span class="predicted">${text}</span>`;
     });
 }
 
