@@ -22,7 +22,7 @@ const textElems = document.querySelectorAll('main > p');
 for (let i = 0; i < 3; i += 1) {
   const elem = textElems[i];
   const prefix = elem.innerText;
-  const length = MATH_MIN + Math.floor(Math.random() * (LENGTH_MAX - LENGTH_MIN));
+  const length = LENGTH_MIN + Math.floor(Math.random() * (LENGTH_MAX - LENGTH_MIN));
 
   predict(prefix, length, TEMPERATURE)
     .then(text => {
