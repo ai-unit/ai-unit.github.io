@@ -1,0 +1,17 @@
+.predicted {
+  font-size: .8em;
+
+  color: $pink;
+
+  &::after {
+    display: inline;
+
+    padding-left: 5px;
+
+    font-size: .7em;
+
+    content: "* GPT II generated";
+
+    color: $orange;
+  }
+}

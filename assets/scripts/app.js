@@ -4,7 +4,7 @@ const TEMPERATURE = 0.7;
 const LENGTH = 30;
 
 function predict(prefix) {
-  return window.fetch(`${GPT_URL}?length=${LENGTH}&prefix=${prefix}&temperature=${TEMPERATURE}`)
+  return window.fetch(`${GPT_URL}?length=${LENGTH}&prefix=${prefix}&temperature=${TEMPERATURE}&include_prefix=false`)
     .then(response => {
       return response.json();
     })
@@ -31,7 +31,7 @@ for (let i = 0; i < 3; i += 1) {
         text += '.';
       }
 
-      elem.innerText = ` ${text}`;
+      elem.innerText = `${elem.innerText} <span class="predicted">${text}</span>`;
     });
 }
 

@@ -57,5 +57,11 @@ h6 {
 
   font-size: 5em;
 
-  color: $black;
+  color: $white;
+
+  text-shadow: $black 6px 1px 0;
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 2em;
+  }
 }
