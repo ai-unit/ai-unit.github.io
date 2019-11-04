@@ -49,7 +49,7 @@ Machine learning products are mainly defined by a technological elite and commer
 * [Website](https://andreasdzialocha.com/)
 * [GitHub](https://github.com/adzialocha/)
 
-**Links**
+## Links
 
 * [badbadnotbad.ai](https://badbadnotbad.ai)
 * [@ai-unit GitHub](https://github.com/ai-unit/)
