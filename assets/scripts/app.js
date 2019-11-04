@@ -32,7 +32,8 @@ for (let i = 0; i < 3; i += 1) {
         text += '.';
       }
 
-      elem.innerHTML = `${prefix} <span class="predicted">${text}</span>`;
+      const cleanedText = text.replace(prefix, '');
+      elem.innerHTML = `${prefix} <span class="predicted">${cleanedText}</span>`;
     });
 }
 
