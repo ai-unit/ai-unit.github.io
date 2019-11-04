@@ -18,7 +18,7 @@ function predict(prefix) {
 
 const textElems = document.querySelectorAll('main > p');
 
-for (let i = 0; textElems.length > i; i += 1) {
+for (let i = 0; i < 3; i += 1) {
   const elem = textElems[i];
 
   predict(elem.innerText)
