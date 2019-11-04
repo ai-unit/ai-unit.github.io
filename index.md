@@ -10,7 +10,7 @@ Machine learning products are mainly defined by a technological elite and commer
 
 ## Projects
 
-**badbadnotbad.ai @ Palazzo (ongoing)**
+**badbadnotbad.ai @ Palazzo, Berlin (ongoing)**
 
 * [Website](http://badbadnotbad.ai/)
 
@@ -29,7 +29,7 @@ Machine learning products are mainly defined by a technological elite and commer
 **Bild der Rettung - Rettungs des Bildes @ HAU1, Berlin (2018)**
 
 * [HAU Berlin](https://www.hebbel-am-ufer.de/programm/pdetail/lesage-bild-der-rettung/)
-* [Interview EN](https://www.springerin.at/2016/4/my-kingdom-my-rules/)
+* [Interview DE](https://www.springerin.at/2016/4/my-kingdom-my-rules/)
 
 **"Wut" – Jelinek, Wagner und Jesus von Nazareth @ Frauenkirche, Dresden (2017)**
 
