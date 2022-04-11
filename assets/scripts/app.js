@@ -1,3 +1,5 @@
+/* @NOTE: We don't do this for now :-)
+
 const GPT_URL = 'https://gpt-rm5crmv2sq-ew.a.run.app';
 
 const TEMPERATURE = 0.7;
@@ -38,5 +40,4 @@ for (let i = 0; i < 3; i += 1) {
 
       elem.innerHTML = `${prefix} <span class="predicted">${cleanedText}</span>`;
     });
-}
-
+}*/
